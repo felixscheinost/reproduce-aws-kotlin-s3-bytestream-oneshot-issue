@@ -118,9 +118,9 @@ fun main() {
       body = flow {
         emit(bytes)
       }.toByteStream(this@runBlocking)
-      log.info("OK")
-
-      log.info("Done")
     }
+    log.info("OK")
+
+    log.info("Done")
   }
 }
